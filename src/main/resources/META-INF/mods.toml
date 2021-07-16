@@ -1,0 +1,43 @@
+
+modLoader="javafml" 
+
+loaderVersion="[36,)" 
+
+license="MIT"
+
+[[mods]] 
+
+modId="suggestionsboxmod" 
+
+version="${file.jarVersion}" 
+displayName="Suggestions Box Mod" 
+
+logoFile="examplemod.png" 
+
+credits="This mod has been created by Bystirith but thanks for the ideas from reddit " 
+
+authors="Love, Cheese and small house plants" 
+
+description='''
+GG WP
+'''
+
+[[dependencies.suggestionsboxmod]] 
+   
+    modId="forge" 
+    
+    mandatory=true 
+    
+    versionRange="[36,)" 
+    
+    ordering="NONE"
+    
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
